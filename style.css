@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html {
+    font-size: 16px;
+    background-color: hsl(192, 100%, 98%);
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+body * {
+    /* border: 1px dotted red !important; */
+}
+nav, footer {
+    background-color: #eef1f7;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    align-content: center;
+}
+
+footer {
+    
+}
+nav > * {}
+nav > h2 {}
+nav > button {
+    position: absolute;
+    left: 2%;
+    width: 10%;
+    height: 80%;
+    top: 10%;
+    bottom: 10%;
+    border: none;
+    border-radius: 15px;
+}
+main {
+    width: min(90%,960px);
+    height: 60vh;
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+    border-radius: 1rem;
+    box-shadow: 0 0 4px 3px #e2e2e2;
+}
+main * {
+    border-radius: 0.5rem;
+}
+main > * {
+    margin-top: 3vh;
+    color: rgb(84, 144, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+}
+button {
+    border: none;
+    font-size: 1rem;
+}
+input {
+    border: none;
+    font-size: 1rem;
+}
+main .inputCont {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+main .inputCont input {
+    width: 84.8%;
+    font-size: 1.25rem;
+    padding: 0.25rem 0.5rem;
+    background-color: aliceblue;
+    border: 1px solid rgb(224, 224, 224);
+}
+main .inputCont button {
+    width: 15%;
+    background-color: rgb(220, 238, 255);
+}
+main .listCont {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .listCont input {
+    width: 64%;
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+}
+main .listCont ol {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.listCont li button {
+    background-color: white;
+}
+.listCont #btnClear {
+    background-color: rgb(241, 241, 241);
+    width: 28%;
+    margin-top: 5vh;
+    color: rgb(255, 58, 58);
+    letter-spacing: 1px;
+    height: 2rem;
+}
+main li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+.hide {
+    display: none;
+}
