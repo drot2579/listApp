@@ -144,8 +144,8 @@ document.getElementById("btnClear").addEventListener("click", (e) => {
 })
 
 
-new Item(`Lorem ipsum `)
-new Item(`Doloribus maiores !`)
-new Item(`Quo explicabo`)
-new Item(`Inventore`)
+new Item(`buy pineapple`)
+new Item(`prepare presantation`)
+new Item(`pay the phone bill`)
+new Item(`buy socks`)
 
