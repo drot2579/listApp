@@ -59,6 +59,17 @@ input {
     border: none;
     font-size: 1rem;
 }
+.logo {
+    height: 100%;
+    & img {
+        height: 100%;
+        transition: 300ms;
+        &:hover {
+    filter: brightness(0.9);
+            
+        }        
+    }
+}
 main .inputCont {
     width: 80%;
     display: flex;
